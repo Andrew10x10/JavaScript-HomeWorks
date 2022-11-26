@@ -6,4 +6,4 @@ alert('Hello,' + user + '.Nice to meet you');
 
 let age = prompt( 'How old are you?');
 
-alert('Hm...' + age + ',you really old');
+alert('Hm...' + age + ',you are really old');
