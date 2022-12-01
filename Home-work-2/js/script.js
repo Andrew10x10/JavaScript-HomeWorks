@@ -1,13 +1,13 @@
 'use strict';
-let name = 'John';
-let admin = name;
+const name = 'John';
+const admin = name;
 
 alert(admin);
 
-let planet = 'Earth';
+const planet = 'Earth';
 
-let user = prompt('what is your name');
+const user = prompt('what is your name');
 alert('hello,' + user);
 
-let number = '10' + 10;
+const number = '10' + 10;
 console.log(typeof(number));
