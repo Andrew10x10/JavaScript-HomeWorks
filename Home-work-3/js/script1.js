@@ -11,6 +11,7 @@
 // console.log(typeof number1);
 // console.log(typeof number2);
 
+// //второй вариант
 const first = +prompt('Please enter the first number');
 const second = +prompt('Please enter the second number');
 
