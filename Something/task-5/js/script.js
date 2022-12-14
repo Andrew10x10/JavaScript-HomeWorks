@@ -1,10 +1,10 @@
 'use strict';
-const age = Number(prompt('tell me your age'));
-const currentYear = new Date().getFullYear();
-
-if (!Number.isNaN(age) && age > 21 && confirm('согласны?')){
-    console.log(currentYear - age);
-}
+// const age = Number(prompt('tell me your age'));
+// const currentYear = new Date().getFullYear();
+//
+// if (!Number.isNaN(age) && age > 21 && confirm('согласны?')){
+//     console.log(currentYear - age);
+// }
 ////===========================//===========================//===========================
 let userName = prompt('Назови свой логин');
 

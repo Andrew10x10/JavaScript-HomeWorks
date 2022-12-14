@@ -11,3 +11,10 @@
 // let первый = prompt('твое первое число')
 // let второе = prompt('твое второе число')
 // let действие = prompt((первый + - + второе) + ' твое вействие')
+//
+
+// const userChoice = prompt('what do you like to do ? for example : Addition, Subtraction, Multiplication, Division');
+// let add == Addition
+// if(userChoice == add){
+//     f
+// }
