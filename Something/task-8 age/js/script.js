@@ -3,13 +3,13 @@
 function getAge(number) {
     if (number === 0)
         return 'лет'
-    if (number >= 5 && number <= 10)
+    if (number >= 5 && number <= 13)
         return 'лет'
     number %= 10
 
     if (number === 1)
         return "год"
-    if (number === 2 && number === 4)
+    if (number >= 2 && number <= 4)
         return "года"
     return 'лет'
 }
