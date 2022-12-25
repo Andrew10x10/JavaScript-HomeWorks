@@ -1,20 +1,36 @@
 'use strict';
 
-// const userChoice = prompt('what do you like to do ? for example : Addition, Subtraction, Multiplication, Division');
-//
-// let addition = +prompt('addition');
-//
-// const first = +prompt('Please enter the first number');
-// const second = +prompt('Please enter the first number');
-//
-// alert('Это ваш ответ: '+ (first + addition + second) + ' (сложение)');
-// let первый = prompt('твое первое число')
-// let второе = prompt('твое второе число')
-// let действие = prompt((первый + - + второе) + ' твое вействие')
-//
 
-// const userChoice = prompt('what do you like to do ? for example : Addition, Subtraction, Multiplication, Division');
-// let add == Addition
-// if(userChoice == add){
-//     f
-// }
+const userChoice = prompt('what do you like to do ? for example : Addition, Subtraction, Multiplication, Division');
+
+const first = Number(prompt('Please enter the first number'));
+const second = Number(prompt('Please enter the first number'));
+
+const add = first + second;
+const sub = first - second;
+const mul = first * second;
+const div = first / second;
+
+// let operation
+// let result
+
+if (userChoice === 'Addition' || userChoice === 'add' || userChoice === '+') {
+    alert(first + ' + ' + second + ' = ' + add);
+    // result = first + second;
+    // operation = '+'
+} else if (userChoice === 'Subtraction' || userChoice === 'sub' || userChoice === '-') {
+    alert(first + " - " + second + ' = ' + sub);
+    // result = first - second;
+    // operation = ' - '
+} else if (userChoice === 'Multiplication' || userChoice === 'mul' || userChoice === '*') {
+    alert(first + ' * ' + second + ' = ' + mul);
+    // result = first * second;
+    // operation = '*'
+} else if (userChoice === 'Division' || userChoice === 'div' || userChoice === '/') {
+    alert(first + ' / ' + second + ' = ' + div);
+    // result = first / second;
+    // operation = '/'
+} else {
+    alert('Видимо произошла ошибка ')
+}
+// console.log(first, operation, second, ' = ', result)

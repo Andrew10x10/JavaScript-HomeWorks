@@ -14,13 +14,13 @@
 // // //второй вариант
 // const first = +prompt('Please enter the first number');
 // const second = +prompt('Please enter the second number');
-//
+
 // alert('Это ваш ответ: '+ (first+second) + ' (сложение)');
 // alert('Это ваш ответ: ' + (first - second) + ' (вычетание)');
 //
 // alert('Это ваш ответ: ' + first * second + ' (умножение)');
 // alert('Это ваш ответ: ' + first / second + ' (деление)');
-//
+// //
 // const first = Number(prompt('Please enter the first number'));
 // const second = Number(prompt('Please enter the second number'));
 // let result = null;
@@ -29,4 +29,4 @@
 // alert('Это ваш ответ: ' + (first + second) + ' (сложение)');
 // result = first - second;
 // alert('Это ваш ответ: ' + (first - second) + ' (вычетание)');
-
+//
