@@ -1,32 +1,31 @@
 'use strict';
-// первый вариант
-//
-// const first = prompt('Please enter the first number');
-// const second = prompt('Please enter the second number');
-// console.log(typeof first);
-// console.log(typeof second);
-//
-// const number1 = Number(first);
-// const number2 = Number(second);
-// console.log(typeof number1);
-// console.log(typeof number2);
+let first = Number(prompt("Введите первое число."));
+let second = Number(prompt("Введите второе число."));
 
-// // //второй вариант
-// const first = +prompt('Please enter the first number');
-// const second = +prompt('Please enter the second number');
+function sum(first, second) {
+    let result = (first + second);
+    console.log("Результат: "+first,'+ '+second,'= '+result);
+    return result;
+}
+sum(first,second);
 
-// alert('Это ваш ответ: '+ (first+second) + ' (сложение)');
-// alert('Это ваш ответ: ' + (first - second) + ' (вычетание)');
-//
-// alert('Это ваш ответ: ' + first * second + ' (умножение)');
-// alert('Это ваш ответ: ' + first / second + ' (деление)');
-// //
-// const first = Number(prompt('Please enter the first number'));
-// const second = Number(prompt('Please enter the second number'));
-// let result = null;
-//
-// result = first + second;
-// alert('Это ваш ответ: ' + (first + second) + ' (сложение)');
-// result = first - second;
-// alert('Это ваш ответ: ' + (first - second) + ' (вычетание)');
-//
+function subtraction(first, second) {
+    let result = first - second;
+    console.log("Результат: "+second, '- '+second,'= '+result);
+    return result;
+}
+subtraction(first,second);
+
+function multiplication(first, second) {
+    let result = first * second;
+    console.log("Результат: "+first, '* '+second,'= '+result);
+    return result;
+}
+multiplication(first,second);
+
+function division(first, second) {
+    let result = first / second;
+    console.log("Результат: "+first, '/ '+second,'= '+result);
+    return result;
+}
+division(first,second);
