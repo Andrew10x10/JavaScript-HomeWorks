@@ -1,6 +1,6 @@
 'use strict';
 
-let userNumber = prompt('number user')
+let userNumber = prompt('Введите своё число')
 let result = null;
 
 if (userNumber <= 2) {
