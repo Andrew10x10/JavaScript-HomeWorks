@@ -7,7 +7,7 @@ if (userNumber <= 2) {
     result = 'error';
 }
 if (userNumber !== null && !isNaN(+userNumber)) {
-    for (let i = 2; i < userNumber; i++) {
+    for (let i = 2; i < (userNumber); i++) {
         if (userNumber % i === 0) {
             result = `${i} явлеется найменшим делителем ${userNumber}`
             break;
