@@ -7,10 +7,10 @@ function getAge(number) {
     } else {
         if (number === 0)
             return 'лет'
-        if (number >= 5 && number <= 13)
+        if (number >= 5 && number <= 14)
             return 'лет'
         number %= 10;
-        if (number === 1 )
+        if (number === 1)
             return "год"
         if (number >= 2 && number <= 4)
             return "года"

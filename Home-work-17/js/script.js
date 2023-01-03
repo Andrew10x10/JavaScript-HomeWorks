@@ -5,7 +5,7 @@
 //     console.log(sum)
 // }
 let result = 1
-for (let i = 1; i <= 3; i++) {
+for (let i = 1; i <= 0; i++) {
     result *= i;
 
 }
