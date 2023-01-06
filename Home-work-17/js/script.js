@@ -1,15 +1,22 @@
 'use strict';
 const userNumber = prompt('Введите своё число');
 let userDegree;
+const error = 'some error';
 
 function a(number, degree = 1) {
-    return console.log(Math.pow(number, degree))
+    return alert(Math.pow(number, degree));
 }
 
-let error = 'some error';
+
 if (!(isNaN(+userNumber) || userNumber === '' || userNumber === null)) {
     userDegree = +prompt('Введите степерь в которую хотите возвести число ' + userNumber);
-    a(userNumber, userDegree)
+
+    if (!(Number(userDegree)) || userDegree === '' || userDegree === null) {
+        a(userNumber)
+    } else {
+        a(userNumber,userDegree);
+    }
+
 } else {
     alert(error)
 }
