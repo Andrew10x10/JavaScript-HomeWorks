@@ -1,12 +1,15 @@
 'use strict';
-// let sum = 0;
-// for (let i = 0; i<= 100; i++) {
-//     sum += i;
-//     console.log(sum)
-// }
-let result = 1
-for (let i = 1; i <= 0; i++) {
-    result *= i;
+const userNumber = prompt('Введите своё число');
+let userDegree;
 
+function a(number, degree = 1) {
+    return console.log(Math.pow(number, degree))
 }
-console.log(result)
+
+let error = 'some error';
+if (!(isNaN(+userNumber) || userNumber === '' || userNumber === null)) {
+    userDegree = +prompt('Введите степерь в которую хотите возвести число ' + userNumber);
+    a(userNumber, userDegree)
+} else {
+    alert(error)
+}
