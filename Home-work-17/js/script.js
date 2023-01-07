@@ -20,3 +20,23 @@ if (!(isNaN(+userNumber) || userNumber === '' || userNumber === null)) {
 } else {
     alert(error)
 }
+
+
+
+
+
+// const num = prompt('enter the number pls');
+// const deg = prompt('enter the degree pls');
+//
+// function getDegree (number, degree = 1)  {
+//     if (!(Number(number)) || number === '' || number === null){
+//         alert('some error')
+//     }
+//     return alert(Math.pow(number, degree));
+// }
+//
+// if (isNaN(+deg) || deg === '' || deg === null){
+//     getDegree(num)
+// } else {
+//     getDegree(num, deg)
+// }
