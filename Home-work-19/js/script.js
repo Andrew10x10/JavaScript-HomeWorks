@@ -24,9 +24,3 @@ console.log(getNewArr(arr));
 
 
 
-
-
-// const arr = [5,7,8,9];
-// console.log(arr)
-// console.log(arr.push(10, 20));
-// console.log(arr.length)
