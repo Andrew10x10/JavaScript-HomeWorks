@@ -1,5 +1,5 @@
 'use strict';
-const arr = [1, 2, 3, -1, -2, -3];
+const arr = [1, 2, 3,-1, -2, -3];
 
 function getNewArr(array) {
 
