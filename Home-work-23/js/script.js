@@ -1,33 +1,33 @@
 'use strict'
 // 1. Даны два массива: [1, 2, 3] и [4, 5, 6]. Объедините их вместе.
+console.log('задание номер 1');
 let arr1 = [1, 2, 3];
 let updatedArr = arr1.concat([4, 5, 6]);
-console.log('задание номер 1')
-console.log(updatedArr)
+console.log(updatedArr);
 
 // 2. Дан массив [1, 2, 3]. Сделайте из него массив [3, 2, 1].
+console.log('задание номер 2');
 let arr2 = [1, 2, 3];
-arr2.reverse()
-console.log('задание номер 2')
-console.log(arr2)
+arr2.reverse();
+console.log(arr2);
 
 // 3. Дан массив [1, 2, 3]. Добавьте ему в конец элементы 4, 5, 6.
+console.log('задание номер 3');
 let arr3 = [1, 2, 3];
-arr3.push(4, 5, 6)
-console.log('задание номер 3')
-console.log(arr3)
+arr3.push(4, 5, 6);
+console.log(arr3);
 
 // 4. Дан массив [1, 2, 3]. Добавьте ему в начало элементы 4, 5, 6.
 let arr4 = [1, 2, 3];
-arr4.unshift(4, 5, 6)
-console.log('задание номер 4')
-console.log(arr4)
+arr4.unshift(4, 5, 6);
+console.log('задание номер 4');
+console.log(arr4);
 
 // 5. Дан массив [‘js’, ‘css’, ‘jq’]. Выведите на экран первый элемент.
 let arr5 = ['js', 'css', 'jq'];
-let firstArrEl = arr5.shift()
-console.log('задание номер 5')
-console.log(firstArrEl)
+let firstArrEl = arr5.shift();
+console.log('задание номер 5');
+console.log(firstArrEl);
 
 // 6. Дан массив [‘js’, ‘css’, ‘jq’]. Выведите на экран последний элемент.
 let arr6 = ['js', 'css', 'jq'];
@@ -62,8 +62,8 @@ console.log(arrNew10)
 // 11. Дан массив [1, 2, 3, 4, 5]. С помощью метода сделайте из него массив [1, 2, 3, ‘a’, ‘b’, ‘c’, 4, 5].
 let arr11 = [1, 2, 3, 4, 5];
 console.log('задание номер 11')
-let arrNew11 = arr11.splice(3, 0, 'a', 'b', 'c')
-console.log(arrNew11)
+arr11.splice(3, 0, 'a', 'b', 'c')
+console.log(arr11)
 
 // 12. Дан массив [1, 2, 3, 4, 5]. С помощью метода сделайте из него массив [1, ‘a’, ‘b’, 2, 3, 4, ‘c’, 5, ‘e’].
 console.log('задание номер 12')
