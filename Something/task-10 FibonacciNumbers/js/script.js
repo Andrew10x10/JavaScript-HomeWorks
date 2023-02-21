@@ -2,14 +2,14 @@
 
 // // Fn = Fn-1 + Fn-2.
 
-// function fib(n = 1) {
-//     if (n<2)return 1
-//     return fib(-1)+fib(-2)
-// }
-//
-// console.log(fib)
+function fib(n = 1) {
+    if (n <= 1) {
+        return n;
+    }
+
+    return fib(n - 1) + fib(n - 2);
+}
+
+console.log(fib(1))
 
 
-let x = 1;
-
-(x > 0) && alert( 'Greater than zero!' );
