@@ -28,7 +28,9 @@
     }
 
     const UserInfo = function (something) {
+        console.group(`${this.name} info:`)
         console.log(`User name: ${this.name}, his age: ${this.age} something about him: ${something}`);
+        console.groupEnd();
     };
 
     const aboutUser1 = UserInfo.myBind(user,'beautiful');
