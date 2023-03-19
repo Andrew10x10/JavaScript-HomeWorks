@@ -1,3 +1,4 @@
+'use strict';
 (function() {
     const array = [1, 2, 3];
     const arrayArrays1 = [1,2,[1.1, 1.2, 1.3],3]
